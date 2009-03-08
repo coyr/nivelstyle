@@ -1,0 +1,186 @@
+
+/* @group globales */
+
+body {
+	background: #eee;
+	font: 90%/120% Arial, Helvetica, sans-serif;
+	color:#555
+}
+.nivel {
+	margin: 0 0 20px; 
+}
+.container {
+	width:960px;
+	margin: 0 auto;
+	background: #fff;
+}
+.header {
+	padding: 0 10px 0;
+}
+.header {
+	font-size: 80%;
+}
+.contenido {
+	font-size:80%;
+}
+
+
+/* @group nav */
+#nav {
+	margin: 15px 0 0 0;
+	float:left;
+	width:100%;
+	background:#023D4C;
+	font-size: 100%;
+}
+#nav li {
+	float:left;
+}
+#nav li a {
+	display:block;
+	padding:5px 10px;
+	color: #fff;
+}
+#nav li a :hover {
+	color:#fff;
+	background:#00262F;
+}
+/* @end nav */
+
+.content {
+	margin: 10px;
+}
+
+/* @group text */
+a {
+	color:#023D4C;
+	text-decoration: none;
+}
+h1 {
+	font-size: 24px;
+	padding: 15px 0 10px 0;
+}
+h1 a {
+	text-decoration:none;
+	display:block;
+	background: url(../img/logo_nivelstyle.gif);
+	width:232px;
+	height:46px;
+	text-indent: -9999em;
+	outline:none;
+}
+h2 {
+	font:bold 22px Giorgia, Times New Roman, Serif;
+	margin: 5px 0 10px 0;
+	color: #023D4C;
+}
+
+h2 a {
+	border-bottom: 1px dotted #000;
+}
+h3 a {
+	color:#666;
+}
+
+/* @end text */
+
+.content {
+	font-size: 80%;
+}
+
+/* @group generic */
+.especial-link1 {
+	text-align:right;
+}
+.especial-link1  a {
+	color: #023D4C;
+	font-size: 11px;
+	font-weight: bold;
+}
+/* @end generic */
+
+/* @end globales */
+
+/* @group footer */
+.footer {
+	background: #eee;
+	padding: 10px;
+	font-size: 12px;
+	color: #666;
+}
+/* @end footer */
+
+/* @group niveles */
+
+/* @group your-div-name1 */
+
+.your-div-name1 {
+	background: #EFFCFF;
+}
+.your-div-name1 .container-block {
+	padding: 10px;
+}
+.your-div-name1 .content-block {
+	padding: 10px;
+}
+
+.your-div-name1 .block {
+	width: 50%;
+}
+.your-div-name1 .block.a {
+
+}
+.your-div-name1 .block.b {
+	float:right;
+}
+.your-div-name2 .block.a .content-block {
+
+}
+.your-div-name1 .block.b .content-block {
+	border:0;
+}
+/* @end your-div-name1 */
+
+/* @group your-div-name2 */
+
+.your-div-name2 {
+	background:#FFF0EF;
+}
+.your-div-name2 .content-block {
+	padding:10px;
+}
+.your-div-name2 .block {
+	width: 33.333%;
+}
+.your-div-name2 .block.a {
+
+}
+.your-div-name2 .block.a .content-block {
+
+}
+.your-div-name2 .block.b {
+
+}
+.your-div-name2 .block.b .content-block {
+
+}
+
+.your-div-name2 .block.c {
+
+}
+.your-div-name2 .block.c .content-block {
+
+}
+
+
+/* @end your-div-name2 */
+
+/* @group join-form */
+
+.join-form .block.a {
+	width: 100%;
+}
+
+/* @end join-form */
+
+/* @end nivels */

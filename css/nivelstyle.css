@@ -1,0 +1,44 @@
+/* @group you only need this */
+
+.nivel,
+.content, 
+.container-block,
+.block {
+	overflow:hidden;
+}
+.nivel,
+.container-content,
+.block {
+	float:left;
+}
+.nivel,
+.container-content {
+	width: 100%;
+}
+.block {
+	display:inline;
+}
+.footer, 
+.header {
+	clear:both;
+}
+/* @end you only need this */
+
+
+/* @group elite */
+
+.clear {
+	clear:both;
+	font-size:0;
+}
+.display-none {
+	display:none;
+}
+.align-right{
+	float:right;
+}
+.align-left {
+	float:left;
+}
+
+/* @end elite */

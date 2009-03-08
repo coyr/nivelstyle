@@ -1,0 +1,84 @@
+
+/* @group nivelstyle forms */
+
+.data {
+	float:left;
+}
+.data li {
+	clear:both;
+}
+
+.input-radio {
+	margin:0 5px;
+	vertical-align:middle;
+}
+.input-checkbox {
+	vertical-align:middle;
+	margin:3px 5px 0 0;
+	width:15px; /* fix extra padding in ie */
+	height:15px; /* fix extra padding in ie */
+}
+
+/* @group form1 */
+.form1 {
+	padding: 5px;
+	margin: 0 0 15px 0;
+}
+
+.form1 .input-text, 
+.form1 textarea,
+.form1 select,
+.form1 .input-submit,
+.form1 .contenido-form1 {
+	/* border:1px solid #b0aa8b ; */
+}
+
+.form1 .input-text, 
+.form1 textarea, 
+.form1 .input-checkbox,
+.form1 .input-radio, 
+.form1 select {
+/*	float:left;*/
+}
+.form1 .data li {
+	margin:0 0 10px;
+	float:left;
+	width: 100%;
+	display:inline;
+}
+.form1 .data-checkbox {
+	padding: 3px 0 0 110px; /* padding left is label's width with his padding */
+	margin:0;
+	width:auto;
+	float:none;
+	display:block;
+} 
+.form1 .data-checkbox .input-checkbox {
+	vertical-align: middle;
+	margin:0 5px 0 0;
+	border-collapse:collapse;
+}
+.form1 .group-fieldset {
+	padding: 10px;
+}
+
+.form1 label {
+	float:left;
+	width: 90px;
+	padding:4px 10px 0 10px;
+	line-height: 100%;
+}
+.form1 .data1 fieldset {
+	padding: 0 0 0 110px;
+}
+.form1 .data1 label {
+	float:none;
+	padding:0;
+	width:auto;
+}
+.form1 .data-submit {
+	padding: 0 0 0 120px;
+}
+/* @end form1 */
+
+/* @end nivelStyle forms */
