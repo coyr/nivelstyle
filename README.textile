@@ -1,6 +1,6 @@
 h1. NivelStyle
 
-NivelStyle es un framework CSS que se enfoca en:
+p. NivelStyle es un framework CSS que se enfoca en:
 
     * Usar estructuras flexibles sin necesidad de grillas
     * Utilizar los mismos nombres de clases para maquetar
@@ -8,7 +8,7 @@ NivelStyle es un framework CSS que se enfoca en:
 
 h2. Instalación
 
-Agrega los archivos de la carpeta CSS a tu carpeta de estilos. Y dentro de la etiqueta <code>head</code> de tu página incluye un llamado a la hoja de estilos main.css:
+p. Agrega los archivos de la carpeta CSS a tu carpeta de estilos. Y dentro de la etiqueta <code>head</code> de tu página incluye un llamado a la hoja de estilos main.css:
 
 <pre>
 <code>
@@ -16,7 +16,7 @@ Agrega los archivos de la carpeta CSS a tu carpeta de estilos. Y dentro de la et
 </code>
 </pre>
 
-En la hoja de estilos main.css[1] encontraras llamados @import, a las demás hojas de estilo:
+p. En la hoja de estilos main.css[1] encontraras llamados @import, a las demás hojas de estilo:
 
 * *reset.css*: Es el archivo reset de Eric Meyer. No es requisito usarlo, puedes usar el reset.css de tu preferencia.
 * *nivelstyle_form.css*: Los estilos para un tipo de despliegue de formulario. En el archivo de descarga viene su estructura basica.
@@ -25,7 +25,7 @@ En la hoja de estilos main.css[1] encontraras llamados @import, a las demás hoj
 
 h2. Como usar NivelStyle
 
-NivelStyle es mitad HTML y mitad CSS, se necesita de los dos mundos para crear estructuras flexibles y fáciles de controlar.
+p. NivelStyle es mitad HTML y mitad CSS, se necesita de los dos mundos para crear estructuras flexibles y fáciles de controlar.
 
 h3. Estructura básica de un sitio:
 
