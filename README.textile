@@ -1,4 +1,4 @@
-h1.NivelStyle es un framework CSS que se enfoca en:
+h1. NivelStyle es un framework CSS que se enfoca en:
 
     * Usar estructuras flexibles sin necesidad de grillas
     * Utilizar los mismos nombres de clases para maquetar
