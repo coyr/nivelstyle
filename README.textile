@@ -1,12 +1,13 @@
-h1. NivelStyle es un framework CSS que se enfoca en:
+h1. NivelStyle
+NivelStyle es un framework CSS que se enfoca en:
 
     * Usar estructuras flexibles sin necesidad de grillas
     * Utilizar los mismos nombres de clases para maquetar
-    * Realizar estructuras sin cÛdigo redundante Û que ser· reescrito
+    * Realizar estructuras sin c√≥digo redundante √≥ que ser√° reescrito
 
-h2. InstalaciÛn
+h2. Instalaci√≥n
 
-Agrega los archivos de la carpeta CSS a tu carpeta de estilos. Y dentro de la etiqueta <code>head</code> de tu p·gina incluye un llamado a la hoja de estilos main.css:
+Agrega los archivos de la carpeta CSS a tu carpeta de estilos. Y dentro de la etiqueta <code>head</code> de tu p√°gina incluye un llamado a la hoja de estilos main.css:
 
 <pre>
 <code>
@@ -14,7 +15,7 @@ Agrega los archivos de la carpeta CSS a tu carpeta de estilos. Y dentro de la et
 </code>
 </pre>
 
-En la hoja de estilos main.css[1] encontraras llamados @import, a las dem·s hojas de estilo:
+En la hoja de estilos main.css[1] encontraras llamados @import, a las dem√°s hojas de estilo:
 
 * *reset.css*: Es el archivo reset de Eric Meyer. No es requisito usarlo, puedes usar el reset.css de tu preferencia.
 * *nivelstyle_form.css*: Los estilos para un tipo de despliegue de formulario. En el archivo de descarga viene su estructura basica.
@@ -23,9 +24,9 @@ En la hoja de estilos main.css[1] encontraras llamados @import, a las dem·s hoja
 
 h2. Como usar NivelStyle
 
-NivelStyle es mitad HTML y mitad CSS, se necesita de los dos mundos para crear estructuras flexibles y f·ciles de controlar.
+NivelStyle es mitad HTML y mitad CSS, se necesita de los dos mundos para crear estructuras flexibles y f√°ciles de controlar.
 
-h3. Estructura b·sica de un sitio:
+h3. Estructura b√°sica de un sitio:
 
 <pre>
 <code>
@@ -46,7 +47,7 @@ h3. Estructura b·sica de un sitio:
 </code>
 </pre>
 
-h4. ExplicaciÛn de las clases en la estructura b·sica
+h4. Explicaci√≥n de las clases en la estructura b√°sica
 
 
 * *.header*:  Los estilos y el html de tu header
@@ -71,12 +72,12 @@ h3. Estructura basica de un nivel
 </code>
 </pre>
 
-h4. ExplicaciÛn de las clases en la estructua de nivel
+h4. Explicaci√≥n de las clases en la estructua de nivel
 
 
-* *.nivel*: Su ancho siempre es 100% pero tambiÈn se ajusta a un ancho fijo. No aplicarle padding, margin Û borde que afecte el ancho 
+* *.nivel*: Su ancho siempre es 100% pero tambi√©n se ajusta a un ancho fijo. No aplicarle padding, margin √≥ borde que afecte el ancho 
 * *.your-div-name1*: Es el nombre que quieras. Permite controlar todo el nivel y los bloques de contenido de cada nivel
-* *.container-block*: Padding Û margin, borde para darle espacio a tus bloques de contenido. No aplicarle ancho a menos que sea necesario.
+* *.container-block*: Padding √≥ margin, borde para darle espacio a tus bloques de contenido. No aplicarle ancho a menos que sea necesario.
 
 h3. Estructura basica de un bloque de contenido
 
@@ -93,13 +94,13 @@ h3. Estructura basica de un bloque de contenido
 </code>
 </pre>
 
-h4. ExplicaciÛn de la clases en la estructura basica de un bloque de contenido
+h4. Explicaci√≥n de la clases en la estructura basica de un bloque de contenido
 
 * *.block*: Permite aplicar estilos a los bloques dentro de un nivel o dentro de todo el sitio. A esta clase se le aplica el ancho de la columna
-* *.a, .b, .c, etc.*: Esta segunda clase permite controlar cada bloque de contenido dentro de un nivel, ancho, color de fondo, tipografÌa, etc, pero por flexibilidad es recomendable solo utilizarla aplicandole el ancho para maquetar. No aplicarle padding o margin.
+* *.a, .b, .c, etc.*: Esta segunda clase permite controlar cada bloque de contenido dentro de un nivel, ancho, color de fondo, tipograf√≠a, etc, pero por flexibilidad es recomendable solo utilizarla aplicandole el ancho para maquetar. No aplicarle padding o margin.
 * *.content-block*: Realiza lo mismo que ".container-block" pero dentro de cada bloque, a esta clase se le puede aplicar margin, padding, borde, etc. 
 
-fn1. No es necesario incluir main.css Si solo quieres usar la parte de maquetaciÛn, solo debes llamar la hoja nivelstyle.css. Si estas incluyendo NivelStyle en un proyecto que se encuentra ya maquetado, recuerda comparar las hojas de estilos para comprobar que no se estÈn definiendo los mismos nombres de clase ya que esto podrÌa alterar el funcionamiento de la hoja de estilos nivelstyle.css
+fn1. No es necesario incluir main.css Si solo quieres usar la parte de maquetaci√≥n, solo debes llamar la hoja nivelstyle.css. Si estas incluyendo NivelStyle en un proyecto que se encuentra ya maquetado, recuerda comparar las hojas de estilos para comprobar que no se est√©n definiendo los mismos nombres de clase ya que esto podr√≠a alterar el funcionamiento de la hoja de estilos nivelstyle.css
 
 
 
