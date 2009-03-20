@@ -2,9 +2,9 @@ h1. NivelStyle
 
 p. NivelStyle is a CSS framework that focus in:
 
-    * Use flexible estructures without need grids
-    * Reuse always the same classes to build your layout
-    * Build structures withour redundant code that will be rewriten
+    * Use flexible estructures without needing grids
+    * Re-use always the same classes to build your layout
+    * Build structures without redundant code that will be rewriten
 
 h2. How to install
 
@@ -18,15 +18,15 @@ p. Add CSS folder archives to your style folder. Inside <code>head</code> in you
 
 p. In main.css[1] you will find some @import calls, to the other stylesheets:
 
-* *reset.css*: This is reset archive created by Eric Meyer. It isn't required to use it, you can use the reset.css file you prefer.
+* *reset.css*: This is reset archive created by Eric Meyer. It isn't required to use it, you can use the reset.css file you preffer.
 * *nivelstyle_form.css*: Styles to build a form. In form.html you will find de structure.
 
-* *nivelstyle.css*: Layout styles. With this styles you can build all the structures you want.
+* *nivelstyle.css*: Layout styles. With this styles you can build any structure you want.
 * *estructuras.css*: Your styles. You can choose this name or include the stylesheet you are working on.
 
 h2. How to use it
 
-p. NivelStyle is half HTML y half CSS, you need both to create flexible strcutures and easy to control.
+p. NivelStyle is half HTML and half CSS, you need both to create flexible strcutures and easy to control.
 
 h3. Basic site's structure:
 
@@ -104,7 +104,7 @@ h4. Block structure classes explenation
 * *.a, .b, .c, etc.*: Extends block and you can control a specific block in your nivel and apply width, background color, typography, etc. It's better not apply padding/margin.
 * *.content-block*: It is like ".container-block" but inside each block, you can set margin/padding/borde, etc. 
 
-fn1. It is not necessary incluide main.css, if you only want to use the layout code, you can call only nivelstyle.css. If you will use NivelStyle in a builded project, verify that your classes are not using the same class names. Because this may alter the functioning of the style sheet nivelstyle.
+fn1. It is not necessary incluide main.css, if you only want to use the layout code, you can call only nivelstyle.css. If you will use NivelStyle in a builded project, verify that your classes are not using the same class names. This may alter the functioning of the style sheet nivelstyle.
 
 
 
